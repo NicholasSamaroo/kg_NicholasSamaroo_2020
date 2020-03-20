@@ -13,8 +13,8 @@ public class main {
         HashSet<Character> compareCharacters = new HashSet<Character>();
         
         /*
-            We cannot map a character to an empty symbol and vice versa
-            so, we check the lengths with this if statement
+            We cannot map a character to an empty symbol, and vice versa,
+            so we check the lengths with this if statement.
         */
         if((s1.length > s2.length) || (s1.length < s2.length)){
             return false;
